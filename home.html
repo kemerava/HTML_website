@@ -4,57 +4,95 @@
     <meta charset="UTF-8">
     <title>This is the about me page</title>
     <style>
-    table, th, td {
-    border: 1px solid black;
-}
-        td{
+        body{
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        td {
             text-align: center;
             padding: 3px 5px 3px 5px;
         }
-        h1{
+
+        h1 {
             text-align: center;
         }
-        #table-1 td{
-            width: 150px ;
+
+        #table-1 td {
+            width: 150px;
 
         }
-        p{
+
+        p {
             width: 500px;
         }
-</style>
+        h3{
+            text-align: center;
+        }
+        #p-web-dev{
+            width: auto;
+        }
+        .table-elem{
+            border: 0 transparent;
+            text-align: left;
+        }
+        #programming-lang{
+            border: 0 transparent;
+        }
+    </style>
 </head>
 <body>
 
 <table id="table-1">
-  <tr>
-      <td>Stern College Course</td>
-      <td>Otters or Rabbits</td>
-  </tr>
+    <tr>
+        <td>Stern College Course</td>
+        <td>Otters or Rabbits</td>
+    </tr>
 </table>
 <h1>Welcome to my page</h1>
 
-<table>
-  <tr>
-    <th>Go to section</th>
-  </tr>
-  <tr>
-      <td><a href="#web-dev">About Web Development</a></td>
-  </tr>
-  <tr>
-      <td><a href="#me">About me</a></td>
-  </tr>
+<table id="sections">
+    <tr>
+        <th>Go to section</th>
+    </tr>
+    <tr>
+        <td><a href="#web-dev">About Web Development</a></td>
+    </tr>
+    <tr>
+        <td><a href="#me">About me</a></td>
+    </tr>
     <tr>
         <td><a href="#hobbies">My hobbies</a></td>
-  </tr>
+    </tr>
 </table>
 
-<p><a id="web-dev">About Web Development</a>
+<h3><a id="web-dev">About Web Development</a>
+</h3>
+<p id="p-web-dev">
+    This is the paragraph describing the web development class. We are here to make the progress and we already know about
+    80% of HTML. We are still going to learn CSS and JS, but for wed development we also know python.
+<table id="programming-lang">
+    <tr>
+        <td class="table-elem">HTML: </td>  <td class="table-elem"><progress id="html" value="80" max="100"> 80% </progress>  </td>
+    </tr>
+    <tr>
+        <td class="table-elem">CSS:</td> <td class="table-elem"><progress id="CSS" value="10" max="100"> 10% </progress></td>
+    </tr>
+    <tr>
+    <td class="table-elem">JS:</td>      <td class="table-elem"><progress id="js" value="5" max="100"> 80% </progress></td>
+    </tr>
+    <tr>
+    <td class="table-elem">Python:</td>  <td class="table-elem"><progress id="python" value="90" max="100"> 90% </progress></td>
+    </tr>
+</table>
 </p>
-<p><a id="me">About me</a></p>
+<h3><a id="me">About me</a></h3>
 
 
-
-<p><a id="hobbies">My hobbies</a></p>
+<h3><a id="hobbies">My hobbies</a></h3>
 
 </body>
 </html>
