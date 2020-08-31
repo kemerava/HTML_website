@@ -35,17 +35,28 @@
         #p-web-dev{
             width: auto;
         }
-        .table-elem{
+        .table-elem, .header-table{
             border: 0 transparent;
             text-align: left;
         }
         #programming-lang{
             border: 0 transparent;
+            width: 100%;
+        }
+        #elizabeth-img{
+            width: 20%;
+            border-radius: 50%;
+            display: inline;
+            border-style: solid;
+            border-color: blue;
+        }
+        #elizabeth-about{
+            display: inline;
         }
     </style>
 </head>
 <body>
-
+<header>
 <table id="table-1">
     <tr>
         <td><a href="course.html">Stern College Course</a></td>
@@ -53,7 +64,7 @@
     </tr>
 </table>
 <h1>Welcome to my page</h1>
-
+<nav>
 <table id="sections">
     <tr>
         <th>Go to section</th>
@@ -67,7 +78,8 @@
     <tr>
         <td><a href="#hobbies">My hobbies</a></td>
     </tr>
-</table>
+</table></nav>
+</header>
 
 <h3><a id="web-dev">About Web Development</a>
 </h3>
@@ -75,6 +87,9 @@
     This is the paragraph describing the web development class. We are here to make the progress and we already know about
     80% of HTML. We are still going to learn CSS and JS, but for wed development we also know python.
 <table id="programming-lang">
+    <tr>
+    <th class="header-table">Web Dev programming language</th><th class="header-table">Experience</th>
+    </tr>
     <tr>
         <td class="table-elem">HTML: </td>  <td class="table-elem"><progress id="html" value="80" max="100"> 80% </progress>  </td>
     </tr>
@@ -90,9 +105,24 @@
 </table>
 </p>
 <h3><a id="me">About me</a></h3>
-
-
+<div>
+<img id="elizabeth-img" src="pictures/elizabeth_image.jpg" alt="elizabeth">
+<p id="elizabeth-about">My name is Lizaveta, but people call me Elizabeth. I am a programmer, mostly interested in AI and
+Data Science. I am 20 years old. I am from Belarus, which is a country in Eastern Europe. </p>
+</div>
 <h3><a id="hobbies">My hobbies</a></h3>
-
+<div>
+    <ul>
+        <li>Sports: I started doing sports when I was 7 and my parents sent me to the
+            <a href="https://en.wikipedia.org/wiki/Taekwondo"> Taekwondo</a> group.
+        </li>
+        <li>
+            Music: I am a guitar player: I started playing the <a href="https://en.wikipedia.org/wiki/Classical_guitar">guitar</a> when I was 11 years old.
+            Since then I love playing and listening to music.
+        </li>
+    </ul>
+</div>
+<footer>
+</footer>
 </body>
 </html>
