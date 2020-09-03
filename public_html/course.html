@@ -4,46 +4,145 @@
     <meta charset="UTF-8">
     <title>Stern College Course</title>
     <style>
-        body{
+        body {
             margin-left: 20%;
             margin-right: 20%;
         }
-        footer{
+
+        footer {
             text-align: right;
         }
+
         h1 {
             text-align: center;
         }
 
 
-        #music-types>th, td{
-            border-color: white;
-            text-align: center;
+        #music-types > table {
+            border-collapse: collapse;
         }
-        #music-types>tr, table{
-            border: solid 2px green ;
-            width: 100%;
+
+        #music-types > table, td {
+            border: 2px solid lawngreen;
+
+        }
+        #music-types > table, th{
+            border: 2px solid seagreen;
+
+        }
+
+        #music-types > th, td {
+            text-align: center;
+
         }
     </style>
 </head>
 <header>
     <table id="table-1" style="border: 1px solid black; width: auto">
-    <tr>
-        <td width="150px" style="border: 1px solid black; text-align: center;
+        <tr>
+            <td width="150px" style="border: 1px solid black; text-align: center;
             padding: 3px 5px 3px 5px;  width: 150px;"><a href="home.html">Home page</a></td>
-        <td width="150px" style="border: 1px solid black; text-align: center;
+            <td width="150px" style="border: 1px solid black; text-align: center;
             padding: 3px 5px 3px 5px; "><a href="rabbits.html">Otters or Rabbits</a></td>
-    </tr>
-</table>
+        </tr>
+    </table>
 </header>
 <body>
-<p>Many programmers are fascinated with music. Music definitely helps with coding. Let me tell you about the course I am taking and the music that helps me code</p>
+<h1>My music class</h1>
+<p>Many programmers are fascinated with music. Music definitely helps with coding. Let me tell you about the course I am
+    taking and the music that helps me code.<br/>
+    As I am writing this page I am listening to music. <br/>
+    <img src="./pictures/music-notes.jpg" alt="thumbnail" width="20%" style="margin: 10px 10px 0 10px;">
+</p>
 <hr>
 <table id="music-types">
     <caption>Music genres</caption>
-    <h1>My music class</h1>
     <tr>
-        <th>Genre</th><th>Type</th><th>More Info</th><th>Link to a recourse</th>
+        <th>Genre</th>
+        <th>Type</th>
+        <th>More Info</th>
+        <th>Link to a recourse</th>
+    </tr>
+    <tr>
+        <td>Symphony</td>
+        <td>Classical</td>
+        <td>An elaborate musical composition for full orchestra, typically in four movements, at least one of which is
+            traditionally in sonata form. Beethoven was one of the most famous symphony composers.
+        </td>
+        <td><a href="https://www.classical-music.com/features/works/20-greatest-symphonies-all-time/">Greatest
+            Symphonies</a></td>
+    </tr>
+    <tr>
+        <td>Rock'n'Roll</td>
+        <td rowspan="2">Rock music</td>
+        <td>A style of popular music that derives in part from blues and folk music and is marked by a heavily accented
+            beat and a simple, repetitive phrase structure. Elvis Presley was famously called “The King of Rock 'n'
+            Roll”.
+        </td>
+        <td><a href="https://www.britannica.com/art/rock-and-roll-early-style-of-rock-music">About Rock'n'Roll</a></td>
+    </tr>
+    <tr>
+        <td>Alternative Rock</td>
+
+        <td>A Category of rock music that emerged from the independent music underground of the 1970s and became widely
+            popular in the 1980s. "Alternative" refers to the genre's distinction from mainstream or commercial rock or
+            pop music. The popular bands include Nirvana and Red Hot Chili Peppers
+        </td>
+        <td><a href="https://www.last.fm/tag/alternative+rock">Listen to Alt Rock here</a></td>
+    </tr>
+    <tr>
+        <td>Pop</td>
+        <td rowspan="2">Popular Music</td>
+        <td>A genre of popular music that originated in its modern form during the mid-1950s in the United States and
+            the
+            United Kingdom. It is the music that is most in line with the tastes and interests of the urban middle
+            class.
+            Michael Jackson is famously known as a "King of pop"
+        </td>
+        <td>
+            <a href="https://theculturetrip.com/north-america/usa/california/articles/the-history-of-pop-music-in-5-defining-decades/">History
+                of Pop</a></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td> a genre of popular music that takes its roots from genres such as blues and old-time music, and various
+            types of American folk music and the cowboy Western music. Its popularized roots originate in the Southern
+            United States of the early 1920s.
+        </td>
+        <td>
+            <a href="https://www.prevention.com/life/g33595680/best-country-songs/">Best of Country</a></td>
+    </tr>
+    <tr>
+        <td>Jazz</td>
+        <td rowspan="2">Blue Note</td>
+        <td>A musical form, often improvisational, that is often
+            characterized by syncopated rhythms, polyphonic ensemble playing, varying degrees of improvisation, often
+            deliberate deviations of pitch, and the use of original timbres.
+        </td>
+        <td>
+            <a href="https://americanhistory.si.edu/smithsonian-jazz/education/what-jazz">What's Jazz?</a></td>
+    </tr>
+    <tr>
+        <td>Blues</td>
+        <td>Blues is an African-American music that traverses a wide range of emotions and musical styles.
+            Central to the idea of blues performance is the concept that, by performing or listening to the blues, one
+            is able to overcome sadness and lose the blues.
+        </td>
+        <td>
+            <a href="https://www.youtube.com/watch?v=Z8PEg-P4OyU">If you feel blue</a></td>
+    </tr>
+    <tr>
+        <td>Techno</td>
+        <td>Electronic dance music</td>
+        <td>Blues is an African-American music that traverses a wide range of emotions and musical styles.
+            Central to the idea of blues performance is the concept that, by performing or listening to the blues, one
+            is able to overcome sadness and lose the blues.
+        </td>
+        <td>
+            <a href="https://www.youtube.com/watch?v=Z8PEg-P4OyU">If you feel blue</a></td>
+    </tr>
+    <tr>
+        <td style="border: 2px solid seagreen;" colspan="4">More info at <a href="https://musicmap.info/">www.musicmap.info</a></td>
     </tr>
 </table>
 </body>
