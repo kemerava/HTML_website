@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>This is the about me page</title>
     <style>
-        body{
+        body {
             margin-left: 20%;
             margin-right: 20%;
         }
+
         table, th, td {
             border: 1px solid black;
         }
@@ -29,99 +30,131 @@
         p {
             width: 500px;
         }
-        h3{
+
+        h3 {
             text-align: center;
         }
-        #p-web-dev{
+
+        #p-web-dev {
             width: auto;
         }
-        .table-elem, .header-table{
+
+        .table-elem, .header-table {
             border: 0 transparent;
             text-align: left;
         }
-        #programming-lang{
+
+        #programming-lang {
             border: 0 transparent;
             width: 100%;
         }
-        #elizabeth-img{
+
+        #elizabeth-img {
             width: 20%;
             border-radius: 50%;
             display: inline;
             border-style: solid;
             border-color: blue;
         }
-        #elizabeth-about{
+
+        #elizabeth-about {
             display: inline;
         }
-        footer{
+
+        footer {
             text-align: right;
         }
     </style>
 </head>
 <body>
 <header>
-<table id="table-1">
-    <tr>
-        <td><a href="course.html">Stern College Course</a></td>
-        <td><a href="rabbits.html">Otters or Rabbits</a></td>
-    </tr>
-</table>
-<h1>Welcome to my page</h1>
-<nav>
-<table id="sections">
-    <tr>
-        <th>Go to section</th>
-    </tr>
-    <tr>
-        <td><a href="#web-dev">About Web Development</a></td>
-    </tr>
-    <tr>
-        <td><a href="#me">About me</a></td>
-    </tr>
-    <tr>
-        <td><a href="#hobbies">My hobbies</a></td>
-    </tr>
-</table></nav>
+    <table id="table-1">
+        <tr>
+            <td><a href="course.html">Stern College Course</a></td>
+            <td><a href="rabbits.html">Otters or Rabbits</a></td>
+        </tr>
+    </table>
+    <h1>Welcome to my page</h1>
+    <nav>
+        <table id="sections">
+            <tr>
+                <th>Go to section</th>
+            </tr>
+            <tr>
+                <td><a href="#web-dev">About Web Development</a></td>
+            </tr>
+            <tr>
+                <td><a href="#me">About me</a></td>
+            </tr>
+            <tr>
+                <td><a href="#hobbies">My hobbies</a></td>
+            </tr>
+        </table>
+    </nav>
 </header>
 
 <h3><a id="web-dev">About Web Development</a>
 </h3>
 <p id="p-web-dev">
-    This is the paragraph describing the web development class. We are here to make the progress and we already know about
+    This is the paragraph describing the web development class. We are here to make the progress and we already know
+    about
     80% of HTML. We are still going to learn CSS and JS, but for wed development we also know python.
 <table id="programming-lang">
     <tr>
-    <th class="header-table">Web Dev programming language</th><th class="header-table">Experience</th>
+        <th class="header-table">Web Dev programming language</th>
+        <th class="header-table">Experience</th>
     </tr>
     <tr>
-        <td class="table-elem">HTML: </td>  <td class="table-elem"><progress id="html" value="80" max="100"> 80% </progress>  </td>
+        <td class="table-elem">HTML:</td>
+        <td class="table-elem">
+            <progress id="html" value="80" max="100"> 80%</progress>
+        </td>
     </tr>
     <tr>
-        <td class="table-elem">CSS:</td> <td class="table-elem"><progress id="CSS" value="10" max="100"> 10% </progress></td>
+        <td class="table-elem">CSS:</td>
+        <td class="table-elem">
+            <progress id="CSS" value="10" max="100"> 10%</progress>
+        </td>
     </tr>
     <tr>
-    <td class="table-elem">JS:</td>      <td class="table-elem"><progress id="js" value="5" max="100"> 80% </progress></td>
+        <td class="table-elem">JS:</td>
+        <td class="table-elem">
+            <progress id="js" value="5" max="100"> 80%</progress>
+        </td>
     </tr>
     <tr>
-    <td class="table-elem">Python:</td>  <td class="table-elem"><progress id="python" value="90" max="100"> 90% </progress></td>
+        <td class="table-elem">Python:</td>
+        <td class="table-elem">
+            <progress id="python" value="90" max="100"> 90%</progress>
+        </td>
     </tr>
 </table>
 </p>
 <h3><a id="me">About me</a></h3>
 <div>
-<img id="elizabeth-img" src="./pictures/elizabeth_image.jpg" alt="elizabeth">
-<p id="elizabeth-about">My name is Lizaveta, but people call me Elizabeth. I am a programmer, mostly interested in AI and
-Data Science. I am 20 years old. I am from Belarus, which is a country in Eastern Europe. </p>
+    <img id="elizabeth-img" src="./pictures/elizabeth_image.jpg" alt="elizabeth" title="Elizabeth">
+    <p id="elizabeth-about"> My name is Lizaveta, but people call me Elizabeth. I am a programmer, mostly interested in
+        AI and
+        Data Science. I am 20 years old. I am from Belarus, which is a country in Eastern Europe. <br/>
+        I study in Stern College, Yeshiva University, getting my BA in computer science as well as learning about
+        Judaism.
+    </p>
 </div>
 <h3><a id="hobbies">My hobbies</a></h3>
 <div>
     <ul>
         <li>Sports: I started doing sports when I was 7 and my parents sent me to the
-            <a href="https://en.wikipedia.org/wiki/Taekwondo"> Taekwondo</a> group.
+            <a href="https://en.wikipedia.org/wiki/Taekwondo"> Taekwondo</a> group. I still continue to work out every day
         </li>
         <li>
-            Music: I am a guitar player: I started playing the <a href="https://en.wikipedia.org/wiki/Classical_guitar">guitar</a> when I was 11 years old.
-            Since then I love playing and listening to music.
+            Music: I am a guitar player: I started playing the <a href="https://en.wikipedia.org/wiki/Classical_guitar">guitar</a>
+            when I was 11 years old.
+            Since then I love playing and listening to music. I am currently taking a course on music that you can learn more about <a href="course.html">here</a>.
+        </li>
+        <li>
+            AI: I love spending my free time on the projects in <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>, most of all,
+            <a href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>. I am fascinated by the Face Recognition and Style Transfer problems and even implemented some
+            Neural Networks using articles and online courses available on the web.
         </li>
     </ul>
 </div>
