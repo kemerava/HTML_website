@@ -31,16 +31,30 @@
             text-align: right;
         }
 
+        #nav {
+            display: flex;
+            border: black solid 1px;
+            width: fit-content;
+            padding: 3px;
+        }
+
+        .pages {
+            padding: 10px;
+            border: black solid 1px;
+            display: inline;
+            width: 150px;
+            text-align: center;
+            margin: 0 0 0 0;
+        }
+
     </style>
 </head>
 <body>
 <header>
-    <table id="table-1">
-        <tr>
-            <td><a href="home.html">Home page</a></td>
-            <td><a href="course.html">Stern College Course</a></td>
-        </tr>
-    </table>
+    <div id="nav">
+        <p class="pages"><a href="home.html">Home page</a></p>
+        <p class="pages"><a href="course.html">Music course</a></p>
+    </div>
     <h1> Here is why we like these animals</h1>
     <img style="width: 20%" src="https://arnoldzwicky.s3.amazonaws.com/BugsBunny.jpg" alt="bugsBunny">
 </header>

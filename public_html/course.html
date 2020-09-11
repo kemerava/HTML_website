@@ -36,19 +36,29 @@
             text-align: center;
 
         }
+        #nav{
+            display: flex;
+            border: black solid 1px;
+            width: fit-content;
+            padding: 3px;
+        }
+        .pages{
+            padding: 10px;
+            border: black solid 1px;
+            display: inline;
+            width: 150px;
+            text-align: center;
+            margin: 0 0 0 0;
+        }
     </style>
 
 </head>
 <body>
 <header>
-    <table id="table-1" style="border: 1px solid black; width: auto">
-        <tr>
-            <td style="border: 1px solid black; text-align: center;
-            padding: 3px 5px 3px 5px;  width: 150px;"><a href="home.html">Home page</a></td>
-            <td style="border: 1px solid black; text-align: center;
-            padding: 3px 5px 3px 5px;  width: 150px;"><a href="rabbits.html">Otters or Rabbits</a></td>
-        </tr>
-    </table>
+    <div id="nav">
+        <p class="pages"><a href="home.html">Home page</a></p>
+        <p class="pages"><a href="rabbits.html">Otters or Rabbits</a></p>
+    </div>
 </header>
 
 <h1>My music class</h1>
@@ -173,7 +183,8 @@
             workstations.
         </td>
         <td>
-            <a href="https://oneedm.com/edm-news/some-basic-information-about-electronic-dance-music/">Basics of EDM</a></td>
+            <a href="https://oneedm.com/edm-news/some-basic-information-about-electronic-dance-music/">Basics of EDM</a>
+        </td>
     </tr>
     <tr>
         <td style="border: 2px solid seagreen;" colspan="4">More info at <a href="https://musicmap.info/">www.musicmap.info</a>
