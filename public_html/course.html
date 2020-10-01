@@ -2,16 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Stern College Course</title>
-    <style>
-        body {
-            margin-left: 20%;
-            margin-right: 20%;
-        }
 
-        footer {
-            text-align: right;
-        }
+    <title>Stern College Course</title>
+    <link rel="stylesheet" href="css/default.css">
+    <style>
+
 
         h1 {
             text-align: center;
@@ -36,163 +31,153 @@
             text-align: center;
 
         }
-        #nav{
-            display: flex;
-            border: black solid 1px;
-            width: fit-content;
-            padding: 3px;
-        }
-        .pages{
-            padding: 10px;
-            border: black solid 1px;
-            display: inline;
-            width: 150px;
-            text-align: center;
-            margin: 0 0 0 0;
-        }
+
     </style>
 
 </head>
 <body>
 <header>
-    <div id="nav">
-        <p class="pages"><a href="home.html">Home page</a></p>
-        <p class="pages"><a href="rabbits.html">Otters or Rabbits</a></p>
+    <div class="navbar">
+        <div id="dropdown">
+            <a id="dropbtn" href="course.html">Music course</a>
+            <div class="dropdown-content">
+                <a href="#general">General info</a>
+                <a href="#music-types">Music Types</a>
+            </div>
+        </div>
+        <a href="home.html">Home</a>
+        <a href="rabbits.html">Otters or Rabbits</a>
     </div>
 </header>
+<div class="body">
+    <h1>My music class</h1>
 
-<h1>My music class</h1>
-<nav>
-    <table id="sections" style="border: 1px solid black; width: 190px;">
-        <tr>
-            <th style="border: 1px solid black; text-align: center;
-            padding: 5px 7px 5px 7px;;  width: 150px;">Go to section
-            </th>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; text-align: center;
-            padding: 5px 7px 5px 7px;  width: 150px;"><a href="#general">General info</a></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; text-align: center;
-            padding: 5px 7px 5px 7px;  width: 150px;"><a href="#music-types">Music Types</a></td>
-        </tr>
-    </table>
-</nav>
-
-<p id="general">Many programmers are fascinated with music. Music definitely helps with coding. Let me tell you about
-    the music course I am
-    taking and the music that helps me code.<br/>
-    As I am writing this page I am listening to music. <br/>
-    <img src="./pictures/music-notes.jpg" alt="thumbnail" style="margin: 10px 10px 0 10px; width: 20%">
-</p>
-<p>Plato: </p>
-<blockquote cite="https://www.musicnotes.com/now/omg/50-inspirational-quotes-about-music/">
-    Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything. <br/>
-    Musical training is a more potent instrument than any other, because rhythm and harmony find their way into the
-    inward places of the soul.<br/>
-    I would teach children music, physics, and philosophy; but most importantly music, for the patterns in music and all
-    the arts are the keys to learning.
-</blockquote>
-<hr>
-<table id="music-types">
-    <caption style="background-color: seagreen;
+    <p id="general">Many programmers are fascinated with music. Music definitely helps with coding. Let me tell you
+        about
+        the music course I am
+        taking and the music that helps me code.<br/>
+        As I am writing this page I am listening to music. <br/>
+        <img src="./pictures/music-notes.jpg" alt="thumbnail" style="margin: 10px 10px 0 10px; width: 20%">
+    </p>
+    <p>Plato: </p>
+    <blockquote cite="https://www.musicnotes.com/now/omg/50-inspirational-quotes-about-music/">
+        Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything. <br/>
+        Musical training is a more potent instrument than any other, because rhythm and harmony find their way into the
+        inward places of the soul.<br/>
+        I would teach children music, physics, and philosophy; but most importantly music, for the patterns in music and
+        all
+        the arts are the keys to learning.
+    </blockquote>
+    <hr>
+    <table id="music-types">
+        <caption style="background-color: seagreen;
   color: white;
   font-weight: bold; font-size: x-large;">Music genres
-    </caption>
-    <tr>
-        <th>Genre</th>
-        <th>Type</th>
-        <th>More Info</th>
-        <th>Link to a recourse</th>
-    </tr>
-    <tr>
-        <td>Symphony</td>
-        <td>Classical</td>
-        <td>An elaborate musical composition for full orchestra, typically in four movements, at least one of which is
-            traditionally in sonata form. Beethoven was one of the most famous symphony composers.
-        </td>
-        <td><a href="https://www.classical-music.com/features/works/20-greatest-symphonies-all-time/">Greatest
-            Symphonies</a></td>
-    </tr>
-    <tr>
-        <td>Rock'n'Roll</td>
-        <td rowspan="2">Rock music</td>
-        <td>A style of popular music that derives in part from blues and folk music and is marked by a heavily accented
-            beat and a simple, repetitive phrase structure. Elvis Presley was famously called “The King of Rock 'n'
-            Roll”.
-        </td>
-        <td><a href="https://www.britannica.com/art/rock-and-roll-early-style-of-rock-music">About Rock'n'Roll</a></td>
-    </tr>
-    <tr>
-        <td>Alternative Rock</td>
+        </caption>
+        <tr>
+            <th>Genre</th>
+            <th>Type</th>
+            <th>More Info</th>
+            <th>Link to a recourse</th>
+        </tr>
+        <tr>
+            <td>Symphony</td>
+            <td>Classical</td>
+            <td>An elaborate musical composition for full orchestra, typically in four movements, at least one of which
+                is
+                traditionally in sonata form. Beethoven was one of the most famous symphony composers.
+            </td>
+            <td><a href="https://www.classical-music.com/features/works/20-greatest-symphonies-all-time/">Greatest
+                Symphonies</a></td>
+        </tr>
+        <tr>
+            <td>Rock'n'Roll</td>
+            <td rowspan="2">Rock music</td>
+            <td>A style of popular music that derives in part from blues and folk music and is marked by a heavily
+                accented
+                beat and a simple, repetitive phrase structure. Elvis Presley was famously called “The King of Rock 'n'
+                Roll”.
+            </td>
+            <td><a href="https://www.britannica.com/art/rock-and-roll-early-style-of-rock-music">About Rock'n'Roll</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Alternative Rock</td>
 
-        <td>A Category of rock music that emerged from the independent music underground of the 1970s and became widely
-            popular in the 1980s. "Alternative" refers to the genre's distinction from mainstream or commercial rock or
-            pop music. The popular bands include Nirvana and Red Hot Chili Peppers
-        </td>
-        <td><a href="https://www.last.fm/tag/alternative+rock">Listen to Alt Rock here</a></td>
-    </tr>
-    <tr>
-        <td>Pop</td>
-        <td rowspan="2">Popular Music</td>
-        <td>A genre of popular music that originated in its modern form during the mid-1950s in the United States and
-            the
-            United Kingdom. It is the music that is most in line with the tastes and interests of the urban middle
-            class.
-            Michael Jackson is famously known as a "King of pop"
-        </td>
-        <td>
-            <a href="https://theculturetrip.com/north-america/usa/california/articles/the-history-of-pop-music-in-5-defining-decades/">History
-                of Pop</a></td>
-    </tr>
-    <tr>
-        <td>Country</td>
-        <td> a genre of popular music that takes its roots from genres such as blues and old-time music, and various
-            types of American folk music and the cowboy Western music. Its popularized roots originate in the Southern
-            United States of the early 1920s.
-        </td>
-        <td>
-            <a href="https://www.prevention.com/life/g33595680/best-country-songs/">Best of Country</a></td>
-    </tr>
-    <tr>
-        <td>Jazz</td>
-        <td rowspan="2">Blue Note</td>
-        <td>A musical form, often improvisational, that is often
-            characterized by syncopated rhythms, polyphonic ensemble playing, varying degrees of improvisation, often
-            deliberate deviations of pitch, and the use of original timbres.
-        </td>
-        <td>
-            <a href="https://americanhistory.si.edu/smithsonian-jazz/education/what-jazz">What's Jazz?</a></td>
-    </tr>
-    <tr>
-        <td>Blues</td>
-        <td>Blues is an African-American music that traverses a wide range of emotions and musical styles.
-            Central to the idea of blues performance is the concept that, by performing or listening to the blues, one
-            is able to overcome sadness and lose the blues.
-        </td>
-        <td>
-            <a href="https://www.youtube.com/watch?v=Z8PEg-P4OyU">If you feel blue</a></td>
-    </tr>
-    <tr>
-        <td>Techno</td>
-        <td>Electronic dance music</td>
-        <td>a genre of electronic dance music that is characterized by a repetitive four on the floor beat
-            which is generally produced for use in a continuous DJ set. Artists may use
-            electronic instruments such as drum machines, sequencers, and synthesizers, as well as digital audio
-            workstations.
-        </td>
-        <td>
-            <a href="https://oneedm.com/edm-news/some-basic-information-about-electronic-dance-music/">Basics of EDM</a>
-        </td>
-    </tr>
-    <tr>
-        <td style="border: 2px solid seagreen;" colspan="4">More info at <a href="https://musicmap.info/">www.musicmap.info</a>
-        </td>
-    </tr>
-</table>
+            <td>A Category of rock music that emerged from the independent music underground of the 1970s and became
+                widely
+                popular in the 1980s. "Alternative" refers to the genre's distinction from mainstream or commercial rock
+                or
+                pop music. The popular bands include Nirvana and Red Hot Chili Peppers
+            </td>
+            <td><a href="https://www.last.fm/tag/alternative+rock">Listen to Alt Rock here</a></td>
+        </tr>
+        <tr>
+            <td>Pop</td>
+            <td rowspan="2">Popular Music</td>
+            <td>A genre of popular music that originated in its modern form during the mid-1950s in the United States
+                and
+                the
+                United Kingdom. It is the music that is most in line with the tastes and interests of the urban middle
+                class.
+                Michael Jackson is famously known as a "King of pop"
+            </td>
+            <td>
+                <a href="https://theculturetrip.com/north-america/usa/california/articles/the-history-of-pop-music-in-5-defining-decades/">History
+                    of Pop</a></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td> a genre of popular music that takes its roots from genres such as blues and old-time music, and various
+                types of American folk music and the cowboy Western music. Its popularized roots originate in the
+                Southern
+                United States of the early 1920s.
+            </td>
+            <td>
+                <a href="https://www.prevention.com/life/g33595680/best-country-songs/">Best of Country</a></td>
+        </tr>
+        <tr>
+            <td>Jazz</td>
+            <td rowspan="2">Blue Note</td>
+            <td>A musical form, often improvisational, that is often
+                characterized by syncopated rhythms, polyphonic ensemble playing, varying degrees of improvisation,
+                often
+                deliberate deviations of pitch, and the use of original timbres.
+            </td>
+            <td>
+                <a href="https://americanhistory.si.edu/smithsonian-jazz/education/what-jazz">What's Jazz?</a></td>
+        </tr>
+        <tr>
+            <td>Blues</td>
+            <td>Blues is an African-American music that traverses a wide range of emotions and musical styles.
+                Central to the idea of blues performance is the concept that, by performing or listening to the blues,
+                one
+                is able to overcome sadness and lose the blues.
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Z8PEg-P4OyU">If you feel blue</a></td>
+        </tr>
+        <tr>
+            <td>Techno</td>
+            <td>Electronic dance music</td>
+            <td>a genre of electronic dance music that is characterized by a repetitive four on the floor beat
+                which is generally produced for use in a continuous DJ set. Artists may use
+                electronic instruments such as drum machines, sequencers, and synthesizers, as well as digital audio
+                workstations.
+            </td>
+            <td>
+                <a href="https://oneedm.com/edm-news/some-basic-information-about-electronic-dance-music/">Basics of
+                    EDM</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid seagreen;" colspan="4">More info at <a href="https://musicmap.info/">www.musicmap.info</a>
+            </td>
+        </tr>
+    </table>
 
-<hr/>
+    <hr/>
+</div>
 <footer>
     &copy; 2020 Lizaveta Kemerava <br/>
     Produced for Web Dev Course, <br/>
