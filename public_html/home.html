@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>This is the about me page</title>
+    <link rel="stylesheet" href="css/default.css">
     <style>
         body {
             margin-left: 20%;
@@ -72,39 +73,25 @@
             padding: 3px;
         }
 
-        .pages {
-            padding: 10px;
-            border: black solid 1px;
-            display: inline;
-            width: 150px;
-            text-align: center;
-            margin: 0 0 0 0;
-        }
+
     </style>
 </head>
 <body>
 <header>
-    <div id="nav">
+    <div class="navbar">
+        <div id="dropdown">
+        <p class="pages"><a href="home.html">Home</a></p>
+            <div class="dropdown-content">
+                <a href="#web-dev">About Web Development</a>
+                <a href="#me">About me</a>
+                <a href="#hobbies">My hobbies</a>
+        </div>
+        </div>
         <p class="pages"><a href="course.html">Music course</a></p>
         <p class="pages"><a href="rabbits.html">Otters or Rabbits</a></p>
     </div>
     <h1>Welcome to my page</h1>
-    <nav>
-        <table id="sections">
-            <tr>
-                <th>Go to section</th>
-            </tr>
-            <tr>
-                <td><a href="#web-dev">About Web Development</a></td>
-            </tr>
-            <tr>
-                <td><a href="#me">About me</a></td>
-            </tr>
-            <tr>
-                <td><a href="#hobbies">My hobbies</a></td>
-            </tr>
-        </table>
-    </nav>
+
 </header>
 
 <h2><a id="web-dev">About Web Development</a>
