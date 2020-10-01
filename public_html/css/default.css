@@ -117,3 +117,6 @@ h1 {
 .pages {
     display: inline;
 }
+#music-navigation{
+    background-image: url("../pictures/music-background.jpg");
+}
