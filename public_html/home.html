@@ -5,28 +5,24 @@
     <title>This is the about me page</title>
     <link rel="stylesheet" href="css/default.css">
     <style>
-        body {
-            margin-left: 20%;
-            margin-right: 20%;
-        }
+
 
         table, th, td {
             border: 1px solid black;
             width: 190px;
         }
 
-        td{
+        td {
             text-align: center;
             padding: 5px 7px 5px 7px;
         }
-        th{
+
+        th {
             padding: 5px 7px 5px 7px;
         }
 
 
-        h1 {
-            text-align: center;
-        }
+
 
         p {
             width: 500px;
@@ -62,16 +58,7 @@
             display: inline;
         }
 
-        footer {
-            text-align: right;
-        }
 
-        #nav {
-            display: flex;
-            border: black solid 1px;
-            width: fit-content;
-            padding: 3px;
-        }
 
 
     </style>
@@ -80,20 +67,19 @@
 <header>
     <div class="navbar">
         <div id="dropdown">
-        <p class="pages"><a href="home.html">Home</a></p>
+            <a id="dropbtn" href="home.html">Home</a>
             <div class="dropdown-content">
                 <a href="#web-dev">About Web Development</a>
                 <a href="#me">About me</a>
                 <a href="#hobbies">My hobbies</a>
+            </div>
         </div>
-        </div>
-        <p class="pages"><a href="course.html">Music course</a></p>
-        <p class="pages"><a href="rabbits.html">Otters or Rabbits</a></p>
+        <a href="course.html">Music course</a>
+        <a href="rabbits.html">Otters or Rabbits</a>
     </div>
-    <h1>Welcome to my page</h1>
-
 </header>
-
+<div class="body">
+<h1>Welcome to my page</h1>
 <h2><a id="web-dev">About Web Development</a>
 </h2>
 <p id="p-web-dev">
@@ -199,6 +185,7 @@ to be deleted.
     </ul>
 </div>
 <hr>
+</div>
 <footer>
     &copy; 2020 Lizaveta Kemerava <br/>
     Produced for Web Dev Course, <br/>
