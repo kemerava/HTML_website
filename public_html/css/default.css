@@ -24,7 +24,7 @@ footer {
 
 h1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 /* Navbar container */
@@ -117,6 +117,17 @@ h1 {
 .pages {
     display: inline;
 }
-#music-navigation{
+
+#music-navigation {
     background-image: url("../pictures/music-background.jpg");
+}
+
+.top-header {
+    display: inline;
+    margin-top: 70px;
+}
+
+.top-image {
+    width: 20%;
+    margin-top: 70px;
 }

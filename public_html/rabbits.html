@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Rabbits</title>
+    <link rel="stylesheet" href="css/default.css">
     <style>
-        body {
-            margin-left: 20%;
-            margin-right: 20%;
-        }
 
-        h1, img {
-            display: inline;
-        }
+
 
         table, th, td {
             border: 1px solid black;
@@ -27,37 +22,22 @@
 
         }
 
-        footer {
-            text-align: right;
-        }
-
-        #nav {
-            display: flex;
-            border: black solid 1px;
-            width: fit-content;
-            padding: 3px;
-        }
-
-        .pages {
-            padding: 10px;
-            border: black solid 1px;
-            display: inline;
-            width: 150px;
-            text-align: center;
-            margin: 0 0 0 0;
-        }
 
     </style>
 </head>
 <body>
 <header>
-    <div id="nav">
-        <p class="pages"><a href="home.html">Home page</a></p>
-        <p class="pages"><a href="course.html">Music course</a></p>
+    <div class="navbar">
+        <div id="dropdown">
+            <a id="dropbtn" href="rabbits.html">Otters or Rabbits</a>
+        </div>
+        <a href="home.html">Home</a>
+        <a href="course.html">Music course</a>
     </div>
-    <h1> Here is why we like these animals</h1>
-    <img style="width: 20%" src="https://arnoldzwicky.s3.amazonaws.com/BugsBunny.jpg" alt="bugsBunny">
 </header>
+<div class="body">
+    <h1 class="top-header"> Here is why we like these animals</h1>
+    <img class="top-image" src="https://arnoldzwicky.s3.amazonaws.com/BugsBunny.jpg" alt="bugsBunny">
 <details>
     <summary>List of fun rabbit facts</summary>
     <ol>
@@ -88,6 +68,7 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!--</video>-->
 <hr>
+</div>
 <footer>
     &copy; 2020 Lizaveta Kemerava <br/>
     Produced for Web Dev Course, <br/>
