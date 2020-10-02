@@ -2,14 +2,15 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
-header, footer {
+header{
     padding-left: 20%;
     padding-right: 20%;
 }
 
 .body {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-bottom: 10%;
 }
 
 header {
@@ -24,7 +25,11 @@ footer {
 
 h1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 70px !important;
+}
+h1, h2{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #06aed5;
 }
 
 /* Navbar container */
@@ -78,7 +83,8 @@ h1 {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, #dropdown:hover #dropbtn {
-    background-color: red;
+    /*background-color: red;*/
+    background-color: #06aed5;
     color: white;
     opacity: 1;
 }
@@ -106,7 +112,7 @@ h1 {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: red; /*#333*/
+    background-color: #06aed5;/*#333*/
 }
 
 /* Show the dropdown menu on hover */
@@ -118,16 +124,45 @@ h1 {
     display: inline;
 }
 
-#music-navigation {
+#music-navigation, #music-footer{
     background-image: url("../pictures/music-background.jpg");
 }
 
+.top-div{
+    display: flex;
+
+}
 .top-header {
-    display: inline;
-    margin-top: 70px;
+    float: left;
+    margin-bottom: 0;
+
 }
 
+
 .top-image {
+    float: right;
     width: 20%;
-    margin-top: 70px;
+     margin-top: 70px;
+
+}
+details{
+    display: inline;
+}
+iframe{
+    display: block;
+}
+footer{
+    background-color: #333333;
+        width: -webkit-fill-available;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a{
+    color: #06aed5;
 }
