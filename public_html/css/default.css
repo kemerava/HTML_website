@@ -242,3 +242,10 @@ h3 {
 .about-me{
     display: flex;
 }
+
+.rabbit-facts{
+    list-style-type: upper-roman;
+}
+.social-rabbits{
+    list-style-type: hebrew;
+}
