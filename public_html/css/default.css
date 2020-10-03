@@ -224,7 +224,7 @@ h3 {
     opacity: 1;
 }
 
-#music-types > table, td {
+#music-types table, td {
     border: 2px solid lawngreen;
     padding: 10px;
 
@@ -271,6 +271,17 @@ caption {
     margin-bottom: 5px;
 }
 
-.col1{
+#music-types td:first-child{
     text-align: left;
+}
+#music-types tr:nth-child(even){
+    background-color: #111111;
+}
+#music-types tr:nth-child(odd){
+    background-color: #222222;
+}
+.last-element{
+    text-align: center !important;
+    border: 2px solid seagreen;
+
 }
