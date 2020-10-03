@@ -22,6 +22,7 @@ header {
     width: -webkit-fill-available;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 footer {
@@ -216,36 +217,60 @@ h3 {
 #music-types > table {
     border-collapse: collapse;
 }
+#music-types tr{
+    opacity: 0.7;
+}
+#music-types tr:hover{
+    opacity: 1;
+}
 
 #music-types > table, td {
     border: 2px solid lawngreen;
+    padding: 10px;
 
 }
 
-#music-types > table, th {
-    border: 2px solid seagreen;
-
+#music-types th {
+    border: 2px solid lawngreen;
+    border-bottom-width: thick;
+    background-color: seagreen;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-#music-types > th, td {
+#music-types th, td {
     text-align: center;
 
 }
 
-.container{
+.container {
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #333333;
     border-radius: 5px;
 }
-.about-me{
+
+.about-me {
     display: flex;
 }
 
-.rabbit-facts{
+.rabbit-facts {
     list-style-type: upper-roman;
 }
-.social-rabbits{
+
+.social-rabbits {
     list-style-type: hebrew;
+}
+
+caption {
+    background-color: seagreen;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+.col1{
+    text-align: left;
 }
