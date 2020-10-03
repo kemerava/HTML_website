@@ -183,15 +183,19 @@ a {
 }
 
 #elizabeth-img {
-    width: 20%;
+    width: auto;
+    height: auto;
+    max-height: 120px;
+    max-width: 120px;
     border-radius: 50%;
-    display: inline;
+    float: left;
     border-style: solid;
     border-color: blue;
 }
 
 #elizabeth-about {
-    display: inline;
+    float: right;
+    padding-left: 15px;
 }
 
 #p-web-dev {
@@ -234,4 +238,7 @@ h3 {
     margin-top: 10px;
     background-color: #333333;
     border-radius: 5px;
+}
+.about-me{
+    display: flex;
 }
