@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <title>This is the about me page</title>
     <!--<link rel="stylesheet" href="css/default.css">-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body class="bg-dark text-light col-12 align-items-center" >
-<header class="sticky-top special-color">
+<body class="bg-dark text-light col-12 align-items-center">
+<header class="sticky-top bg-dark">
     <ul class="nav nav-pills justify-content-center">
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="home.html" data-toggle="dropdown">Home</a>
-        <div class="dropdown-menu">
+            <div class="dropdown-menu">
                 <a class="dropdown-item" href="#web-dev">About Web Development</a>
                 <a class="dropdown-item" href="#me">About me</a>
                 <a class="dropdown-item" href="#hobbies">My hobbies</a>
-        </div>
+            </div>
         </li>
         <li class="nav-item">
-        <a href="course.html" class="nav-link">Music course</a>
+            <a href="course.html" class="nav-link">Music course</a>
         </li>
         <li class="nav-item">
-        <a href="rabbits.html" class="nav-link" >Otters or Rabbits</a></li>
+            <a href="rabbits.html" class="nav-link">Otters or Rabbits</a></li>
     </ul>
 </header>
 <div class="body ">
     <div class="container">
-        <h1>Welcome to my page</h1>
+        <h1 class="modal-header justify-content-center">Welcome to my page</h1>
     </div>
     <div class="container">
         <h2><a id="web-dev">About Web Development</a>
@@ -109,55 +110,73 @@
         <del>some text</del>
         to be deleted.
     </div>
-     <div class="container">
-    <h2><a id="me">About me</a></h2>
-    <div class="about-me">
-        <img id="elizabeth-img" src="./pictures/elizabeth_image.jpg" alt="elizabeth" title="Elizabeth" class="rounded-circle w-25 p-3 border border-primary" >
-        <p id="elizabeth-about"> My name is Lizaveta, but people call me Elizabeth. I am a programmer, mostly interested
-            in
-            AI and
-            Data Science. I am 20 years old. I am from Belarus, which is a country in Eastern Europe. <br/>
-            I study in Stern College, Yeshiva University, getting my BA in computer science as well as learning about
-            Judaism.
-        </p>
+    <div class="container jumbotron text-dark">
+        <h2><a id="me">About me</a></h2>
+        <div class="about-me">
+            <img id="elizabeth-img" src="./pictures/elizabeth_image.jpg" alt="elizabeth" title="Elizabeth"
+                 class="rounded-circle w-25 p-3 border border-primary">
+            <p id="elizabeth-about"> My name is Lizaveta, but people call me Elizabeth. I am a programmer, mostly
+                interested
+                in
+                AI and
+                Data Science. I am 20 years old. I am from Belarus, which is a country in Eastern Europe. <br/>
+                I study in Stern College, Yeshiva University, getting my BA in computer science as well as learning
+                about
+                Judaism.
+            </p>
+        </div>
     </div>
-     </div>
-     <div class="container">
-    <h2><a id="hobbies">My hobbies</a></h2>
-    <div>
-        <ul>
-            <li>Sports: I started doing sports when I was 7 and my parents sent me to the
-                <a href="https://en.wikipedia.org/wiki/Taekwondo"> Taekwondo</a> group. I still continue to work out
-                every
-                day
-            </li>
-            <li>
-                Music: I am a guitar player: I started playing the <a
-                    href="https://en.wikipedia.org/wiki/Classical_guitar">guitar</a>
-                when I was 11 years old.
-                Since then I love playing and listening to music. I am currently taking a course on music that you can
-                learn
-                more about <a href="course.html">on the course page</a>.
-            </li>
-            <li>
-                AI: I love spending my free time on the projects in <a
-                    href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>, most of
-                all,
-                <a href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>. I am fascinated by the Face
-                Recognition and Style Transfer problems and even implemented some
-                Neural Networks using articles and online courses available on the web.
-            </li>
-        </ul>
-    </div>
-     </div>
-    <hr>
-</div>
-<footer class="sticky-top fixed-bottom bg-dark text-light text-right" >
-    &copy; 2020 Lizaveta Kemerava <br/>
-    Produced for Web Dev Course, <br/>
-    <a href="https://www.yu.edu/stern">Stern College, Yeshiva University</a><br/>
-    215 Lex Av New York, NY, 10016
+    <div class="container">
+        <h2><a id="hobbies">My hobbies</a></h2>
+        <div>
+            <ul>
+                <li>Sports: I started doing sports when I was 7 and my parents sent me to the
+                    <a href="https://en.wikipedia.org/wiki/Taekwondo"> Taekwondo</a> group. I still continue to work out
+                    every
+                    day
+                </li>
+                <li>
+                    Music: I am a guitar player: I started playing the <a
+                        href="https://en.wikipedia.org/wiki/Classical_guitar">guitar</a>
+                    when I was 11 years old.
+                    Since then I love playing and listening to music. I am currently taking a course on music that you
+                    can
+                    learn
+                    more about <a href="course.html">on the course page</a>.
+                </li>
+                <li>
+                    AI: I love spending my free time on the projects in <a
+                        href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a>, most
+                    of
+                    all,
+                    <a href="https://en.wikipedia.org/wiki/Deep_learning">Deep Learning</a>. I am fascinated by the Face
+                    Recognition and Style Transfer problems and even implemented some
+                    Neural Networks using articles and online courses available on the web.
+                </li>
+            </ul>
+        </div>
 
-</footer>
+        <div>
+            <nav aria-label="between-pages align-self-right">
+                <ul class="pagination pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Home</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="course.html">Music</a></li>
+                    <li class="page-item"><a class="page-link" href="rabbits.html">Rabbits</a></li>
+                    <li class="page-item"><a class="page-link" href="euclid_algo.html">Euclid surprise</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </div>
+</div>
+        <footer class="sticky-top fixed-bottom bg-dark text-light text-right">
+            &copy; 2020 Lizaveta Kemerava <br/>
+            Produced for Web Dev Course, <br/>
+            <a href="https://www.yu.edu/stern">Stern College, Yeshiva University</a><br/>
+            215 Lex Av New York, NY, 10016
+
+        </footer>
 </body>
 </html>
